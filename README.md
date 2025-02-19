@@ -16,7 +16,7 @@ On General write a name
 Select Connection
 |Field|Value|
 |-----:|-----------|
-|Host name/address: postgresdb|
+|Host name/address:| postgresdb|
 |Port:| 5432|
 |Maintenance database:| guests|
 |Username:| postgres|
