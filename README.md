@@ -41,3 +41,15 @@ Docker build --tag guestsapp:1.0.0 .
 ```
 docker run --name guestsapp -p 8080:8080 --network guests-network -e DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/guests -e DATASOURCE_USER=postgres -e DATASOURCE_PASSWORD=postgres guestsapp:1.0.0
 ```
+8 - Stop docker container
+```
+docker stop postgresdb
+docker stop pgadmin4
+docker stop guestsapp
+```
+9 - Start docker container
+```
+docker start postgresdb
+docker start pgadmin4
+docker start guestsapp
+```
