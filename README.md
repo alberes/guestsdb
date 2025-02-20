@@ -35,7 +35,7 @@ creation_date timestamp not null
 ```
 6 - Create image of GuestApp
 ```
-Docker build --tag guestsapp:1.0.0
+Docker build --tag guestsapp:1.0.0 .
 ```
 7 - Run container guestsapp
 ```
