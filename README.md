@@ -21,6 +21,7 @@ Select Connection
 |Maintenance database:| guests|
 |Username:| postgres|
 |Password:| postgres|
+
 Those values was created in docker commands
 
 5 - Create table in guests database
